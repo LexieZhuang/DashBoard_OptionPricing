@@ -2,6 +2,8 @@
 
 ## Overview
 This project is a web-based application that models stock prices using the Heston model with an Unscented Kalman Filter (UKF). It enables users to estimate model parameters, run Monte Carlo simulations, and perform sensitivity analysis. This is the final project for NYU FRE-6411 Data Visualization.
+## Example:
+![Dashboard_ScreenShot](https://github.com/user-attachments/assets/405d5e22-6297-43d5-9ace-8c8594ee7bed)
 
 ## Features
 - **Stock Price Data Retrieval**: Fetch historical stock price data from Yahoo Finance.
@@ -18,12 +20,6 @@ This project is a web-based application that models stock prices using the Hesto
 └── README.md         # Project documentation
 ```
 
-## Installation
-### Prerequisites
-Ensure you have Python 3 installed, then install the required dependencies:
-```bash
-pip install dash dash-bootstrap-components pandas numpy yfinance plotly filterpy scipy
-```
 
 ## Usage
 ### Running the Application
@@ -32,12 +28,4 @@ Start the Dash web application by executing:
 python demo.py
 ```
 Then, navigate to `http://127.0.0.1:5500/` in your web browser.
-
-### Components
-- **Stock Search**: Enter a stock ticker to fetch historical data.
-- **Heston Model Estimation**: Select a date range and estimate parameters.
-- **Monte Carlo Simulation**: Simulate future stock prices based on estimated parameters.
-- **Sensitivity Analysis**: Modify model parameters and observe changes in predictions.
-- **Statistical Analysis**: View summary statistics and probability distributions of simulated prices.
-
 
